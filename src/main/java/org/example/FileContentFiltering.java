@@ -272,7 +272,7 @@ public class FileContentFiltering {
             } else if (token.contains(".txt") && !new File(token).exists()) {
                 printErrorMessage("Введен несуществующий файл: ", token);
             } else if (!token.contains(".txt")) {
-                printErrorMessage("Введена некорректная комманда или введен некорректный формат файла: ", token);
+                printErrorMessage("Введена некорректная команда или введен некорректный формат файла: ", token);
             }
         }
 
